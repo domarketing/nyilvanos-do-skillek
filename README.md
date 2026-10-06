@@ -5,6 +5,9 @@ Claude-hoz készült skillek a webináros futószalag megépítéséhez: felirat
 skilljeinek csupaszított változatai: a módszertan benne van, a mi saját adataink nincsenek. A saját
 cégedre a `cegprofil` skill-lel szabod őket.
 
+**Claude Code-ot használsz? Ez az ajánlott út:** két paranccsal megkapod az összeset, és frissen is
+maradnak. Lásd lent: [Telepítés, Claude Code](#claude-code-ajánlott).
+
 ## Letöltés
 
 Skillenként egy zip. Ezt a fájlt töltöd fel a claude.ai-ra, kicsomagolás nélkül.
@@ -40,22 +43,10 @@ A `szovegellenorzo` közben a háttérben dolgozik: a szöveges skillek a végé
 
 ## Telepítés
 
-### claude.ai (böngésző, asztali app)
+### Claude Code (ajánlott)
 
-1. Töltsd le a kívánt skill zipjét a fenti táblázatból.
-2. A claude.ai beállításaiban nyisd meg a Skills részt, és válaszd az **Upload skill** lehetőséget.
-3. Válaszd ki a letöltött zipet. Egyszerre többet is kijelölhetsz.
-
-A skillekhez be kell kapcsolni a kódfuttatást és a fájlkészítést (Code execution and file creation)
-a beállításokban.
-
-**Fontos:** ne a zöld „Code → Download ZIP” gombbal letöltött teljes repót töltsd fel, és ne egy
-mappát, amiben több skill van. A feltöltő skillenként egy zipet vár, benne egyetlen mappával, és abban
-a `SKILL.md`-vel. A fenti linkeken pontosan ilyen zipek vannak.
-
-### Claude Code
-
-Pluginként, egyben az összes skill, frissítésekkel:
+Egy lépésben megkapod mind a 11 skillt, és ha bekapcsolod az automatikus frissítést, a javítások
+maguktól megérkeznek. Pluginként telepíted:
 
 ```
 /plugin marketplace add domarketing/nyilvanos-do-skillek
@@ -69,6 +60,21 @@ paranccsal.
 
 Vagy kézzel: másold a kívánt skill mappáját (`skills/<skill>`) a `~/.claude/skills/` alá, és indíts
 új sessiont.
+
+### claude.ai (böngésző, asztali app)
+
+Itt nincs automatikus frissítés: ha egy skill frissül, töltsd le újra a zipjét, és töltsd fel még egyszer.
+
+1. Töltsd le a kívánt skill zipjét a fenti táblázatból.
+2. A claude.ai beállításaiban nyisd meg a Skills részt, és válaszd az **Upload skill** lehetőséget.
+3. Válaszd ki a letöltött zipet. Egyszerre többet is kijelölhetsz.
+
+A skillekhez be kell kapcsolni a kódfuttatást és a fájlkészítést (Code execution and file creation)
+a beállításokban.
+
+**Fontos:** ne a zöld „Code → Download ZIP” gombbal letöltött teljes repót töltsd fel, és ne egy
+mappát, amiben több skill van. A feltöltő skillenként egy zipet vár, benne egyetlen mappával, és abban
+a `SKILL.md`-vel. A fenti linkeken pontosan ilyen zipek vannak.
 
 ## Ha a feltöltés hibát ír
 
