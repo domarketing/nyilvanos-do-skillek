@@ -1,0 +1,55 @@
+name: Skill-zipek
+
+# Minden main-re pusholt változás után ellenőrzi a skilleket, skillenként egy
+# feltölthető zipet épít (egy felső mappa, benne a SKILL.md), és kicseréli őket
+# a "legfrissebb" kiadásban. A letöltési linkek így mindig ugyanazok maradnak:
+# https://github.com/<owner>/<repo>/releases/latest/download/<skill>.zip
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skill-zipek
+  cancel-in-progress: true
+
+jobs:
+  zipek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skillek ellenőrzése
+        run: python3 scripts/ellenor.py
+
+      - name: Zipek építése
+        run: |
+          mkdir -p dist
+          cd skills
+          for d in */; do
+            n="${d%/}"
+            zip -qr "../dist/$n.zip" "$n" -x '*/__pycache__/*' '*.pyc' '*/.DS_Store'
+          done
+          ls -la ../dist
+
+      - name: A "legfrissebb" kiadás frissítése
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag -f legfrissebb
+          git push -f origin legfrissebb
+          notes="Skillenként egy zip, közvetlenül feltölthető a claude.ai-ra. Frissítve: $(date -u +%Y-%m-%d), commit ${GITHUB_SHA::7}."
+          if gh release view legfrissebb >/dev/null 2>&1; then
+            gh release edit legfrissebb --notes "$notes" --latest
+          else
+            gh release create legfrissebb --title "Legfrissebb skillek" --notes "$notes" --latest
+          fi
+          # Ami már nincs a skills/ mappában, annak a zipje se maradjon a kiadásban.
+          for a in $(gh release view legfrissebb --json assets --jq '.assets[].name'); do
+            [ -f "dist/$a" ] || gh release delete-asset legfrissebb "$a" --yes
+          done
+          gh release upload legfrissebb dist/*.zip --clobber

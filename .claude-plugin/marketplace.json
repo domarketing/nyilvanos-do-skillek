@@ -1,0 +1,32 @@
+{
+  "name": "nyilvanos-do-skillek",
+  "owner": {
+    "name": "DO! marketing"
+  },
+  "metadata": {
+    "description": "Claude-skillek a webináros futószalaghoz: feliratkozó oldal, köszönőoldal, értékesítési levelek és oldal, szövegellenőrzés, plusz kiegészítők.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "do-skillek",
+      "description": "A DO! marketing ügyfeleinek összeállított Claude-skillek: cégprofil, feliratkozó oldal, webinár köszönőoldal, értékesítési levél és oldal, szövegellenőrző, webdesign-arculat, Facebook-poszt, leirat-javító, magyar PDF és WordPress-feltöltő.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/cegprofil",
+        "./skills/feliratkozo-oldal",
+        "./skills/webinar-koszonooldal",
+        "./skills/ertekesitesi-level-iro",
+        "./skills/ertekesitesi-oldal-keszito",
+        "./skills/szovegellenorzo",
+        "./skills/claude-oldalak-feltolto",
+        "./skills/webdesign-arculat-generator",
+        "./skills/facebook-poszt-iro",
+        "./skills/leirat-javito",
+        "./skills/pdf-magyar"
+      ]
+    }
+  ]
+}
