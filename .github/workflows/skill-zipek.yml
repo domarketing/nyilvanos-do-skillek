@@ -34,7 +34,11 @@ jobs:
             n="${d%/}"
             zip -qr "../dist/$n.zip" "$n" -x '*/__pycache__/*' '*.pyc' '*/.DS_Store'
           done
-          ls -la ../dist
+          # Az összes skill egyben: a csomagban a skillenkénti zipek vannak, kicsomagolás
+          # után ezeket lehet egyszerre kijelölni a claude.ai feltöltőjében.
+          cd ../dist
+          zip -q osszes-skill-csomag.zip $(ls *.zip | grep -v '^osszes-skill-csomag.zip$')
+          ls -la
 
       - name: A "legfrissebb" kiadás frissítése
         env:

@@ -23,7 +23,9 @@ Skillenként egy zip. Ezt a fájlt töltöd fel a claude.ai-ra, kicsomagolás n�
 | `leirat-javito` | Automatikus feliratból (VTT, SRT) rendezett, javított, szó szerinti leirat, például a webinárfelvételedből. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/leirat-javito.zip) |
 | `pdf-magyar` | Ékezethelyes magyar PDF, például csali-anyaghoz, ellenőrzőlistához, útmutatóhoz. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/pdf-magyar.zip) |
 
-Az összes zip egy helyen: [legfrissebb kiadás](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest).
+**Az összes egyszerre:** [osszes-skill-csomag.zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/osszes-skill-csomag.zip).
+Ezt ne töltsd fel közvetlenül: csomagold ki, és a benne lévő zipeket jelöld ki egyszerre a feltöltőben.
+Minden fájl egy helyen: [legfrissebb kiadás](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest).
 
 ## A futószalag sorrendje
 
