@@ -62,8 +62,10 @@ Pluginként, egyben az összes skill, frissítésekkel:
 /plugin install do-skillek@nyilvanos-do-skillek
 ```
 
-Frissítés: `/plugin marketplace update nyilvanos-do-skillek`. Ha azt szeretnéd, hogy magától
-frissüljön, a `/plugin` menü Marketplaces fülén bekapcsolhatod az automatikus frissítést.
+Frissítés kézzel: `/plugin marketplace update nyilvanos-do-skillek`. Ha azt szeretnéd, hogy magától
+frissüljön, a `/plugin` menü Marketplaces fülén kapcsold be az automatikus frissítést (alapból ki
+van kapcsolva). A frissítés a következő indításkor töltődik be, vagy azonnal a `/reload-plugins`
+paranccsal.
 
 Vagy kézzel: másold a kívánt skill mappáját (`skills/<skill>`) a `~/.claude/skills/` alá, és indíts
 új sessiont.
@@ -97,5 +99,8 @@ Vagy kézzel: másold a kívánt skill mappáját (`skills/<skill>`) a `~/.claud
   (feltöltési szabályok, belső adatok, mérőkódok, kulcsok).
 - A `main` ágra pusholt változás után a GitHub Action újraépíti a zipeket, és kicseréli őket a
   „legfrissebb” kiadásban. A letöltési linkek nem változnak.
+- A `marketplace.json` plugin-bejegyzésében szándékosan nincs `version`: így a Claude Code a commit
+  alapján ismeri fel az új változatot. Ha valaki beír egy verziószámot, onnantól csak akkor jut el a
+  frissítés a felhasználókhoz, ha a verziót is növelitek.
 - Új skillnél: mappa a `skills/` alá, sor a fenti táblázatba, és bejegyzés a
   `.claude-plugin/marketplace.json` `skills` listájába.
