@@ -1,0 +1,211 @@
+{
+  "verzio": 1,
+  "marka": "Koppány Lili",
+  "szakma": "okleveles tájépítészmérnök, kerttervező",
+  "mit_ad": "Minimális fenntartási igényű, természethű kertek tervét: funkcióvázlat, két vázlatterv, kész kertterv, növénykiültetési terv, növénylista és fenntartási kézikönyv.",
+  "kinek": "Elfoglalt kerttulajdonosok (családi ház, társasház, előkert), akik egész évben szép kertet szeretnének, de nem akarnak minden héten órákat dolgozni vele, és kertészt sem fizetnének.",
+  "ar_szint": "közép: a teljes kert terve általában 200-350 ezer forint (az oldal szerint)",
+  "hangnem": {
+    "leiras": "Tegező, kedves és szakmailag magabiztos. Lili néha humorral oldja a szakmai érveket (a tujás murvasivatagról), és kimondja, amiben hisz: minél több fa, természetközeli ágyások.",
+    "szavak": [
+      "tegező",
+      "kedves",
+      "magabiztos",
+      "természetszerető",
+      "kicsit humoros"
+    ]
+  },
+  "targyi_vilag": {
+    "targyak": [
+      "grafitceruza",
+      "pauszpapír",
+      "kertterv alaprajza",
+      "szintvonalak",
+      "növénycímke",
+      "magtasak",
+      "herbáriumlap",
+      "kerti pad",
+      "metszőolló"
+    ],
+    "novenyek": [
+      "díszfüvek",
+      "kasvirág",
+      "sedum",
+      "cickafark",
+      "tölgyfa",
+      "évelőágyás",
+      "tulipán"
+    ],
+    "anyagok": [
+      "papír",
+      "grafit",
+      "föld",
+      "fa",
+      "kavics"
+    ],
+    "formak": [
+      "szintvonal",
+      "kasvirág-szirom",
+      "fűcsomó",
+      "lombkorona-kör az alaprajzon",
+      "levélér",
+      "évszak-negyed"
+    ],
+    "szinek": [
+      {
+        "nev": "díszfű-szalma",
+        "hex": "#CDB077",
+        "forras": "a díszfüves ágyások ősszel"
+      },
+      {
+        "nev": "kasvirág",
+        "hex": "#B4547E",
+        "forras": "a favicon kasvirágja és az évelőágyások"
+      },
+      {
+        "nev": "sedum-rozsda",
+        "hex": "#9A4B3C",
+        "forras": "az őszi varjúháj"
+      },
+      {
+        "nev": "tölgylevél",
+        "hex": "#4F6B3A",
+        "forras": "Lili tölgyfás fotója"
+      },
+      {
+        "nev": "mohazöld",
+        "hex": "#6E7A3F",
+        "forras": "a természetközeli ágyások alja"
+      },
+      {
+        "nev": "cickafark-sárga",
+        "hex": "#E2C25A",
+        "forras": "a nyári évelők"
+      },
+      {
+        "nev": "nyári ég",
+        "hex": "#8DB0CF",
+        "forras": "a vácrátóti és a tölgyfás fotók ege"
+      },
+      {
+        "nev": "cianotípia-kék",
+        "hex": "#24487A",
+        "forras": "a botanikus kéknyomat (cianotípia)"
+      },
+      {
+        "nev": "földbarna",
+        "hex": "#6B5444",
+        "forras": "a kerti föld és a mulcs"
+      },
+      {
+        "nev": "pauszpapír",
+        "hex": "#F0EDE4",
+        "forras": "a tervrajzok pauszpapírja"
+      },
+      {
+        "nev": "ceruzagrafit",
+        "hex": "#4A4D50",
+        "forras": "Lili ceruzarajzai"
+      }
+    ]
+  },
+  "ami_mar_megvan": {
+    "szinek": [
+      {
+        "nev": "zsályazöld",
+        "hex": "#ADCE8A"
+      },
+      {
+        "nev": "púderrózsa",
+        "hex": "#D1BEB9"
+      },
+      {
+        "nev": "rajzgrafit",
+        "hex": "#6F6F6F"
+      }
+    ],
+    "betuk": [
+      "Montserrat",
+      "Karla",
+      "La Belle Aurore"
+    ],
+    "logo": "KL monogram két ceruzarajzos ággal, szürkében",
+    "kepek": "Saját, kézzel rajzolt ceruzaskiccek (bokor, házikó, kertterv, évszakok, tulipán), naturalisztikus kertfotók (díszfüves ágyás, Vácrátót tavasszal, tölgyfa), portrék Liliről a szabadban és szobanövényekkel.",
+    "erosseg": "A kézi ceruzarajzok és a valódi, díszfüves kertképek: ezek senki másnál nincsenek meg."
+  },
+  "egyedi_jelek": [
+    "Lili saját ceruzarajzai",
+    "a KL monogram ágakkal",
+    "a kasvirág-szirom a faviconban",
+    "valódi helyek: Vácrátót, a nagy tölgyfa",
+    "a szlogen: „…amit annyira szeretsz, hogy be sem akarsz többé menni a házba…”"
+  ],
+  "kerulendo": [
+    "általános zöld levél és fűnyíró-ikonok",
+    "gyepszőnyeg, tuja, murva képi világa (Lili maga is ezt kritizálja)",
+    "harsány neonzöld és rikító „kertépítő cég” színek",
+    "steril stockfotós hangulat"
+  ],
+  "formanyelv": {
+    "organikus": 0.85,
+    "puha": 0.65,
+    "harsany": 0.25,
+    "kortars": 0.55,
+    "kezi": 0.85,
+    "homerseklet": 0.55
+  },
+  "karakterek": {
+    "elegans": {
+      "nev": "botanikus tábla",
+      "otlet": "Mint egy régi botanikus atlasz lapja: latin növénynevek, hajszálvonalak, sok levegő.",
+      "reszlet": "latin növénynév a címkékben (Echinacea purpurea · kasvirág)",
+      "szinek": [
+        "cianotípia-kék",
+        "pauszpapír",
+        "díszfű-szalma"
+      ]
+    },
+    "modern": {
+      "nev": "tervezőasztal",
+      "otlet": "A tájépítész műterme: tiszta rács, alaprajzi jelek, szintvonalak, pontos méretek.",
+      "reszlet": "szintvonal és alaprajzi lombkorona-kör",
+      "szinek": [
+        "mohazöld",
+        "cickafark-sárga",
+        "nyári ég"
+      ]
+    },
+    "meresz": {
+      "nev": "préri",
+      "otlet": "A díszfüves ágyás ősszel: nagy formák, kasvirág és szalma, sok mozgás.",
+      "reszlet": "fűcsomó-sziluett és évszak-csík",
+      "szinek": [
+        "kasvirág",
+        "díszfű-szalma",
+        "sedum-rozsda"
+      ]
+    },
+    "baratsagos": {
+      "nev": "kerti napló",
+      "otlet": "Lili saját ceruzarajzai és kézírása, mintha a kertnaplóját lapoznád.",
+      "reszlet": "ceruzaskicc és magtasak",
+      "szinek": [
+        "zsályazöld",
+        "púderrózsa",
+        "díszfű-szalma"
+      ]
+    },
+    "klasszikus": {
+      "nev": "arborétum",
+      "otlet": "Vácrátót és a nagy tölgy: régi botanikus kert, növénycímkék, nyugodt rend.",
+      "reszlet": "növénycímke-tábla",
+      "szinek": [
+        "tölgylevél",
+        "díszfű-szalma",
+        "sedum-rozsda"
+      ]
+    }
+  },
+  "igy_latunk": "Tájépítészként természethű, kevés munkát kérő kerteket tervezel, és ezt kézzel rajzolt ceruzaskiccekkel meg valódi, díszfüves kertképekkel mutatod meg. A hangod tegező és kedves, de határozott: a murvás, tujás kertnél többet akarsz adni az ügyfeleidnek. A színeket, a formákat és az ikonokat ezért a kertjeid anyagaiból vettük: díszfű-szalma, kasvirág, sedum, pauszpapír, ceruzagrafit, szintvonal. Az öt irány ugyanaz a Lili, öt különböző hangulatban.",
+  "brief": null
+}

@@ -1,0 +1,115 @@
+{
+  "ajanlott": "bF",
+  "lista": [
+    {
+      "id": "bE",
+      "karakter": "elegans",
+      "nev": "Elegáns · Cormorant Garamond és Alegreya",
+      "display": "Cormorant Garamond",
+      "body": "Alegreya",
+      "hand": "Alex Brush",
+      "label": "Xanh Mono",
+      "w_display": 500,
+      "ls_display": "-0.01em",
+      "lh_display": 1.06,
+      "nagybetus": false,
+      "hero_scale": 1.0,
+      "fs_hand": 1.4,
+      "miert": "Cím: Cormorant Garamond (finom, klasszikus). Szöveg: Alegreya. Kézírás: Alex Brush. Címke: Xanh Mono.",
+      "_pont": 2.76,
+      "_mas_cimbetu": [
+        "Marcellus",
+        "Montagu Slab",
+        "Libre Caslon Display"
+      ]
+    },
+    {
+      "id": "bM",
+      "karakter": "modern",
+      "nev": "Modern · Onest és DM Sans",
+      "display": "Onest",
+      "body": "DM Sans",
+      "hand": "Birthstone",
+      "label": "DM Mono",
+      "w_display": 650,
+      "ls_display": "-0.02em",
+      "lh_display": 1.06,
+      "nagybetus": false,
+      "hero_scale": 1.0,
+      "fs_hand": 1.4,
+      "miert": "Cím: Onest (modern, tiszta). Szöveg: DM Sans. Kézírás: Birthstone. Címke: DM Mono.",
+      "_pont": 2.43,
+      "_mas_cimbetu": [
+        "Red Hat Display",
+        "DM Sans",
+        "Wix Madefor Text"
+      ]
+    },
+    {
+      "id": "bB",
+      "karakter": "meresz",
+      "nev": "Merész · Shrikhand és Baloo 2",
+      "display": "Shrikhand",
+      "body": "Baloo 2",
+      "hand": "Yellowtail",
+      "label": "Sofia Sans Condensed",
+      "w_display": 400,
+      "ls_display": "-0.02em",
+      "lh_display": 1.06,
+      "nagybetus": false,
+      "hero_scale": 1.12,
+      "fs_hand": 1.4,
+      "miert": "Cím: Shrikhand (dőlt, kövér, retro display). Szöveg: Baloo 2. Kézírás: Yellowtail. Címke: Sofia Sans Condensed.",
+      "_pont": 2.73,
+      "_mas_cimbetu": [
+        "Rammetto One",
+        "Rowdies",
+        "Alfa Slab One"
+      ]
+    },
+    {
+      "id": "bF",
+      "karakter": "baratsagos",
+      "nev": "Barátságos · Grandstander és Playpen Sans",
+      "display": "Grandstander",
+      "body": "Playpen Sans",
+      "hand": "Playwrite HU",
+      "label": "Sono",
+      "w_display": 650,
+      "ls_display": "-0.02em",
+      "lh_display": 1.06,
+      "nagybetus": false,
+      "hero_scale": 1.0,
+      "fs_hand": 1.4,
+      "miert": "Cím: Grandstander (vidám, gyerekes, kicsit kézírásos display). Szöveg: Playpen Sans. Kézírás: Playwrite HU. Címke: Sono.",
+      "_pont": 2.9,
+      "_mas_cimbetu": [
+        "Karla",
+        "Signika",
+        "Shrikhand"
+      ]
+    },
+    {
+      "id": "bK",
+      "karakter": "klasszikus",
+      "nev": "Klasszikus · Alegreya és Brygada 1918",
+      "display": "Alegreya",
+      "body": "Brygada 1918",
+      "hand": "Petit Formal Script",
+      "label": "Courier Prime",
+      "w_display": 600,
+      "ls_display": "-0.01em",
+      "lh_display": 1.06,
+      "nagybetus": false,
+      "hero_scale": 1.0,
+      "fs_hand": 1.4,
+      "miert": "Cím: Alegreya (kalligrafikus serif). Szöveg: Brygada 1918. Kézírás: Petit Formal Script. Címke: Courier Prime.",
+      "_pont": 2.87,
+      "_mas_cimbetu": [
+        "Brygada 1918",
+        "EB Garamond",
+        "Ibarra Real Nova"
+      ]
+    }
+  ]
+}

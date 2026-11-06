@@ -1,0 +1,79 @@
+{
+  "stilusok": [
+    {
+      "id": "iE",
+      "karakter": "elegans",
+      "nev": "Elegáns · cianotípia",
+      "technika": "cianotipia",
+      "csalad": "nyomat",
+      "elotag": "Cyanotype photogram icon: a small square cyanotype print with soft deckled paper edges, the object appears as a crisp white and pale-blue silhouette with fine translucent details on deep Prussian blue, gentle sun-print texture.",
+      "csavar": "",
+      "_pont": 3.39,
+      "_tobbi": [
+        "herbarium",
+        "metszet",
+        "tus_ecset"
+      ]
+    },
+    {
+      "id": "iM",
+      "karakter": "modern",
+      "nev": "Modern · tervrajz-nézet",
+      "technika": "tervrajz",
+      "csalad": "vonal",
+      "elotag": "Technical plan-view icon drawn like an architect's or engineer's drawing seen from above: thin precise {ink} lines, small dimension ticks, dotted guide circles, a few areas hatched in {primary}, clean drafting style.",
+      "csavar": "",
+      "_pont": 3.08,
+      "_tobbi": [
+        "origami",
+        "papirkivagas",
+        "monoline"
+      ]
+    },
+    {
+      "id": "iB",
+      "karakter": "meresz",
+      "nev": "Merész · papírkivágás",
+      "technika": "papirkivagas",
+      "csalad": "anyag",
+      "elotag": "Layered cut-paper icon: three or four stacked paper layers in {primary}, {accent}, {accent2} and {paper}, crisp hand-cut edges, tiny soft shadows between layers, subtle paper fibre texture.",
+      "csavar": "",
+      "_pont": 2.88,
+      "_tobbi": [
+        "linometszet",
+        "szitanyomat",
+        "stencil"
+      ]
+    },
+    {
+      "id": "iF",
+      "karakter": "baratsagos",
+      "nev": "Barátságos · ceruzaskicc",
+      "technika": "ceruzaskicc",
+      "csalad": "vonal",
+      "elotag": "Graphite pencil sketch icon: soft {ink} pencil lines with light cross-hatching for shadows, slightly uneven strokes, like a designer's quick study in a sketchbook, a single pale wash of {primary} in one area.",
+      "csavar": "",
+      "_pont": 3.45,
+      "_tobbi": [
+        "papirkivagas",
+        "herbarium",
+        "gouache"
+      ]
+    },
+    {
+      "id": "iK",
+      "karakter": "klasszikus",
+      "nev": "Klasszikus · herbárium-kollázs",
+      "technika": "herbarium",
+      "csalad": "anyag",
+      "elotag": "Pressed-botanical collage icon: the object composed of real-looking pressed and dried leaves, petals and grass blades in {primary}, {accent} and dried straw tones, flat and slightly translucent, held by one tiny strip of paper tape.",
+      "csavar": "",
+      "_pont": 3.45,
+      "_tobbi": [
+        "metszet",
+        "ceruzaskicc",
+        "cianotipia"
+      ]
+    }
+  ]
+}

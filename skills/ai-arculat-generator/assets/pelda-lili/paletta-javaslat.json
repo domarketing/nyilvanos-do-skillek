@@ -1,0 +1,133 @@
+{
+  "ajanlott": "pF",
+  "lista": [
+    {
+      "id": "pE",
+      "karakter": "elegans",
+      "nev": "Elegáns · díszfű-szalma és nyári ég (sötét)",
+      "miert": "Fő szín: díszfű-szalma (a díszfüves ágyások ősszel), kiemelő: nyári ég (a vácrátóti és a tölgyfás fotók ege), apró díszekhez zsályazöld. Sötét alapon is működik (esti, prémium hangulat).",
+      "primary": "#CDB077",
+      "accent": "#8DB0CF",
+      "accent2": "#ADCE8A",
+      "paper": "#1B150A",
+      "ink": "#EEEBE2",
+      "deep": "#0D0802",
+      "card": "#272115",
+      "mod": "sotet",
+      "_meres": {
+        "ink_paper": 15.21,
+        "primary_paper": 8.7,
+        "on_primary": 8.68,
+        "accent_paper": 7.98
+      },
+      "_forras": {
+        "primary": "díszfű-szalma",
+        "accent": "nyári ég",
+        "accent2": "zsályazöld",
+        "papir": "rajzgrafit"
+      }
+    },
+    {
+      "id": "pM",
+      "karakter": "modern",
+      "nev": "Modern · mohazöld és nyári ég",
+      "miert": "Fő szín: mohazöld (a természetközeli ágyások alja), kiemelő: nyári ég (a vácrátóti és a tölgyfás fotók ege), apró díszekhez cickafark-sárga.",
+      "primary": "#6C7C19",
+      "accent": "#74B2E7",
+      "accent2": "#E1C159",
+      "paper": "#FBFAF7",
+      "ink": "#191D0C",
+      "deep": "#232A00",
+      "card": "#FEFDFB",
+      "_meres": {
+        "ink_paper": 16.46,
+        "primary_paper": 4.44,
+        "on_primary": 4.63,
+        "accent_paper": 2.17
+      },
+      "_forras": {
+        "primary": "mohazöld",
+        "accent": "nyári ég",
+        "accent2": "cickafark-sárga",
+        "papir": "rajzgrafit"
+      }
+    },
+    {
+      "id": "pB",
+      "karakter": "meresz",
+      "nev": "Merész · kasvirág és díszfű-szalma",
+      "miert": "Fő szín: kasvirág (a favicon kasvirágja és az évelőágyások), kiemelő: díszfű-szalma (a díszfüves ágyások ősszel), apró díszekhez sedum-rozsda.",
+      "primary": "#C2447F",
+      "accent": "#DEAB37",
+      "accent2": "#9E4737",
+      "paper": "#F9F3E5",
+      "ink": "#211017",
+      "deep": "#3F1528",
+      "card": "#FFFFFF",
+      "_meres": {
+        "ink_paper": 16.49,
+        "primary_paper": 4.29,
+        "on_primary": 4.74,
+        "accent_paper": 1.9
+      },
+      "_forras": {
+        "primary": "kasvirág",
+        "accent": "díszfű-szalma",
+        "accent2": "sedum-rozsda",
+        "papir": "rajzgrafit"
+      }
+    },
+    {
+      "id": "pF",
+      "karakter": "baratsagos",
+      "nev": "Barátságos · zsályazöld és púderrózsa",
+      "miert": "Fő szín: zsályazöld (a mostani oldal), kiemelő: púderrózsa (a mostani oldal), apró díszekhez díszfű-szalma. Ez a mostani színek igényesebb változata.",
+      "primary": "#9DBE79",
+      "accent": "#D1BEB9",
+      "accent2": "#CDB077",
+      "paper": "#FBF7E9",
+      "ink": "#22291A",
+      "deep": "#1B2D01",
+      "card": "#FFFFFF",
+      "_meres": {
+        "ink_paper": 13.99,
+        "primary_paper": 1.94,
+        "on_primary": 8.68,
+        "accent_paper": 1.66
+      },
+      "_forras": {
+        "primary": "zsályazöld",
+        "accent": "púderrózsa",
+        "accent2": "díszfű-szalma",
+        "papir": "rajzgrafit"
+      }
+    },
+    {
+      "id": "pK",
+      "karakter": "klasszikus",
+      "nev": "Klasszikus · tölgylevél és sedum-rozsda",
+      "miert": "Fő szín: tölgylevél (Lili tölgyfás fotója), kiemelő: sedum-rozsda (az őszi varjúháj), apró díszekhez díszfű-szalma.",
+      "primary": "#466231",
+      "accent": "#A85748",
+      "accent2": "#BDA168",
+      "paper": "#F6F0E0",
+      "ink": "#131B0D",
+      "deep": "#182D04",
+      "card": "#FFFFFF",
+      "_meres": {
+        "ink_paper": 15.51,
+        "primary_paper": 6.05,
+        "on_primary": 6.88,
+        "accent_paper": 4.48
+      },
+      "_forras": {
+        "primary": "tölgylevél",
+        "accent": "sedum-rozsda",
+        "accent2": "díszfű-szalma",
+        "papir": "rajzgrafit"
+      }
+    }
+  ],
+  "_hu": "pF",
+  "_sotet": "pE"
+}

@@ -34,7 +34,7 @@ kapcsolva, különben egyetlen másolható markdown blokkban. Utána mondd el a 
 ## Hogyan használják a többi skillek
 
 A `feliratkozo-oldal`, a `webinar-koszonooldal`, az `ertekesitesi-oldal-keszito`, az
-`ertekesitesi-level-iro` és a `facebook-poszt-iro` írás előtt megkeresi a `cegprofil.md`-t: a projekt
+`ertekesitesi-level-iro` írás előtt megkeresi a `cegprofil.md`-t: a projekt
 fájljai között, a munkamappában vagy a beszélgetésben. Ha megvan, abból dolgozik. Ha nincs, csak az adott
 feladathoz szükséges minimumot kérdezi meg, vagy felajánlja ezt a skillt.
 
@@ -63,7 +63,7 @@ Kezdd ezzel az egy kérdéssel:
 - **Dokumentum, beillesztett szöveg:** olvasd végig, és gyűjtsd ki belőle, ami a sablon valamelyik
   mezőjébe illik.
 - **Arculat:** a színek és a betűk ritkán olvashatók ki pontosan egy weboldal szövegéből. Ha a
-  `webdesign-arculat-generator` skill már futott, vedd át a designrendszeréből. Ha nem, kérdezd meg,
+  `ai-arculat-generator` skill már futott, vedd át a designrendszeréből. Ha nem, kérdezd meg,
   vagy hagyd hiányként.
 
 Utána mutasd meg röviden, mit találtál, és csak azt kérdezd meg, ami még hiányzik.
@@ -171,6 +171,6 @@ változik a leggyakrabban.
 ## Kapcsolódó skillek
 
 A cégprofilt a `feliratkozo-oldal`, a `webinar-koszonooldal`, az `ertekesitesi-oldal-keszito`, az
-`ertekesitesi-level-iro` és a `facebook-poszt-iro` olvassa. Az arculati részhez a
-`webdesign-arculat-generator` designrendszere jó forrás. A profil adat, ezért nem megy át a
+`ertekesitesi-level-iro` olvassa. Az arculati részhez a
+`ai-arculat-generator` designrendszere jó forrás. A profil adat, ezért nem megy át a
 `szovegellenorzo` skillen. A belőle készülő szövegek igen.

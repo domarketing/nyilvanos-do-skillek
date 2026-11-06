@@ -1,0 +1,107 @@
+{
+  "mappa": "ikonok",
+  "quality": "medium",
+  "parhuzamos": 6,
+  "szinek": {
+    "primary": "#466231",
+    "accent": "#A85748",
+    "accent2": "#BDA168",
+    "ink": "#131B0D",
+    "paper": "#F6F0E0"
+  },
+  "stilusok": [
+    {
+      "id": "iE",
+      "nev": "Elegáns · cianotípia",
+      "technika": "cianotipia",
+      "csavar": "Botanical specimen feeling: leaves, grass seed heads and petals rendered with scientific precision, as if sun-printed from plants of a natural, low-maintenance garden.",
+      "elotag": "Cyanotype photogram icon: a small square cyanotype print with soft deckled paper edges, the object appears as a crisp white and pale-blue silhouette with fine translucent details on deep Prussian blue, gentle sun-print texture. Botanical specimen feeling: leaves, grass seed heads and petals rendered with scientific precision, as if sun-printed from plants of a natural, low-maintenance garden."
+    },
+    {
+      "id": "iM",
+      "nev": "Modern · tervrajz-nézet",
+      "technika": "tervrajz",
+      "csavar": "Draw every subject the way a landscape architect draws on a garden plan: seen from above where it makes sense, tree canopies as soft circles with a centre dot, shrubs as scalloped outlines, planting beds hatched in {primary}, paths as dashed double lines; buildings and tools may be shown in simple elevation with the same thin drafting line.",
+      "elotag": "Technical plan-view icon drawn like an architect's or engineer's drawing seen from above: thin precise {ink} lines, small dimension ticks, dotted guide circles, a few areas hatched in {primary}, clean drafting style. Draw every subject the way a landscape architect draws on a garden plan: seen from above where it makes sense, tree canopies as soft circles with a centre dot, shrubs as scalloped outlines, planting beds hatched in {primary}, paths as dashed double lines; buildings and tools may be shown in simple elevation with the same thin drafting line."
+    },
+    {
+      "id": "iB",
+      "nev": "Merész · papírkivágás",
+      "technika": "papirkivagas",
+      "csavar": "Build the scene from prairie-garden layers: tall ornamental grass blades, coneflower heads and seed heads in the paper layers, the strongest layer in {primary}, straw-gold {accent2} grasses, and a small {accent} detail.",
+      "elotag": "Layered cut-paper icon: three or four stacked paper layers in {primary}, {accent}, {accent2} and {paper}, crisp hand-cut edges, tiny soft shadows between layers, subtle paper fibre texture. Build the scene from prairie-garden layers: tall ornamental grass blades, coneflower heads and seed heads in the paper layers, the strongest layer in {primary}, straw-gold {accent2} grasses, and a small {accent} detail."
+    },
+    {
+      "id": "iF",
+      "nev": "Barátságos · ceruzaskicc",
+      "technika": "ceruzaskicc",
+      "csavar": "Match the hand of a landscape architect who sketches with soft grey graphite (#6F6F6F) on tracing paper: loose, airy lines, light hatching in the shadows, a few small leaves or grass tufts around the object; the pale wash uses {primary} only on a few leaves.",
+      "elotag": "Graphite pencil sketch icon: soft {ink} pencil lines with light cross-hatching for shadows, slightly uneven strokes, like a designer's quick study in a sketchbook, a single pale wash of {primary} in one area. Match the hand of a landscape architect who sketches with soft grey graphite (#6F6F6F) on tracing paper: loose, airy lines, light hatching in the shadows, a few small leaves or grass tufts around the object; the pale wash uses {primary} only on a few leaves."
+    },
+    {
+      "id": "iK",
+      "nev": "Klasszikus · herbárium-kollázs",
+      "technika": "herbarium",
+      "csavar": "Use pressed plants from a natural garden (oak leaves, sedum leaves, coneflower petals, ornamental grass blades, small seed heads) arranged like an old herbarium sheet; muted, slightly faded archival colours based on {primary}, {accent} and {accent2}.",
+      "elotag": "Pressed-botanical collage icon: the object composed of real-looking pressed and dried leaves, petals and grass blades in {primary}, {accent} and dried straw tones, flat and slightly translucent, held by one tiny strip of paper tape. Use pressed plants from a natural garden (oak leaves, sedum leaves, coneflower petals, ornamental grass blades, small seed heads) arranged like an old herbarium sheet; muted, slightly faded archival colours based on {primary}, {accent} and {accent2}."
+    }
+  ],
+  "ikonok": [
+    {
+      "nev": "tanacsadas",
+      "tema": "an open hand gently holding a small seedling with two leaves inside a round speech bubble"
+    },
+    {
+      "nev": "novenyagy",
+      "tema": "a lush naturalistic perennial flower bed seen from the side, with ornamental grasses, coneflowers and tall spikes of salvia"
+    },
+    {
+      "nev": "kertterv",
+      "tema": "a landscape architect's garden plan seen from above on a sheet of paper: round tree canopies, a curved garden path, a small terrace and planting beds"
+    },
+    {
+      "nev": "csaladi_haz",
+      "tema": "a small detached family house with a pitched roof, surrounded by a garden with two trees, shrubs and a winding path to the door"
+    },
+    {
+      "nev": "tarsashaz",
+      "tema": "a low three-storey apartment building with a large leafy tree and a small shared garden in front"
+    },
+    {
+      "nev": "elokert",
+      "tema": "a front garden with a low wooden picket fence, flowering shrubs and a small gate, the front of a house behind"
+    },
+    {
+      "nev": "fenntartas",
+      "tema": "a garden rake and a hand fork crossed out with one large X, meaning no tiresome garden work"
+    },
+    {
+      "nev": "evszakok",
+      "tema": "a circle divided into four quarters showing a snowflake, a spring blossom, a summer sun and an autumn maple leaf"
+    },
+    {
+      "nev": "okologikus",
+      "tema": "two cupped hands holding a small globe with a young sprout growing on top, with a tiny bee and a butterfly"
+    },
+    {
+      "nev": "hatarido",
+      "tema": "a page-a-day desk calendar with a small leaf on it and a check mark, meaning deadlines are kept"
+    },
+    {
+      "nev": "valasz",
+      "tema": "a classic telephone handset with a small envelope and a curved arrow, meaning a quick call back"
+    },
+    {
+      "nev": "atterv",
+      "tema": "a pencil and an eraser on a sheet of tracing paper with a sketched garden layout, meaning the plan can be redrawn"
+    },
+    {
+      "nev": "felmeres",
+      "tema": "a retractable measuring tape next to a clipboard with a simple garden site sketch"
+    },
+    {
+      "nev": "tervcsomag",
+      "tema": "a rolled-up set of garden plans tied with a ribbon, a small plant list booklet and a little potted plant"
+    }
+  ]
+}

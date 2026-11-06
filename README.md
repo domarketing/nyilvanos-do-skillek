@@ -21,8 +21,7 @@ Skillenként egy zip. Ezt a fájlt töltöd fel a claude.ai-ra, kicsomagolás n�
 | `ertekesitesi-oldal-keszito` | Vázlatból vagy dokumentumból kész értékesítési oldal (egy HTML-fájl) a 16 legókockás keretrendszer szerint. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/ertekesitesi-oldal-keszito.zip) |
 | `szovegellenorzo` | Kiszedi a kész magyar szövegből, amiről ráismerni, hogy AI írta. A többi skill a végén magától futtatja. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/szovegellenorzo.zip) |
 | `claude-oldalak-feltolto` | A kész oldalakat a Claude Oldalak bővítménnyel közvetlenül a saját WordPress-oldaladra teszi. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/claude-oldalak-feltolto.zip) |
-| `webdesign-arculat-generator` | A weboldalad címéből arculat-választót készít, a kiválasztott elemekből pedig kész főoldalt és designrendszer-leírást. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/webdesign-arculat-generator.zip) |
-| `facebook-poszt-iro` | Személyes hangú Facebook- és LinkedIn-posztok erős nyitómondattal. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/facebook-poszt-iro.zip) |
+| `ai-arculat-generator` | Béta. A weboldalad címéből teljes arculat három lépésben: webes arculat-választó és új főoldal, szerkeszthető PowerPoint-arculat, videós arculat. A végén saját márka-skill. Saját OpenAI-kulcs kell az ikonokhoz. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/ai-arculat-generator.zip) |
 | `leirat-javito` | Automatikus feliratból (VTT, SRT) rendezett, javított, szó szerinti leirat, például a webinárfelvételedből. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/leirat-javito.zip) |
 | `pdf-magyar` | Ékezethelyes magyar PDF, például csali-anyaghoz, ellenőrzőlistához, útmutatóhoz. | [zip](https://github.com/domarketing/nyilvanos-do-skillek/releases/latest/download/pdf-magyar.zip) |
 
@@ -45,7 +44,7 @@ A `szovegellenorzo` közben a háttérben dolgozik: a szöveges skillek a végé
 
 ### Claude Code (ajánlott)
 
-Egy lépésben megkapod mind a 11 skillt, és ha bekapcsolod az automatikus frissítést, a javítások
+Egy lépésben megkapod mind a 10 skillt, és ha bekapcsolod az automatikus frissítést, a javítások
 maguktól megérkeznek. Pluginként telepíted:
 
 ```
@@ -90,7 +89,7 @@ a `SKILL.md`-vel. A fenti linkeken pontosan ilyen zipek vannak.
 
 - A skillek kiindulópontok. A saját márkádra, ajánlatodra és hangodra a `cegprofil` szabja őket, de a
   végeredményt mindig nézd át.
-- A `webdesign-arculat-generator` ikonjaihoz saját OpenAI API-kulcs kell. A kulcsot soha ne írd a
+- Az `ai-arculat-generator` ikonjaihoz saját OpenAI API-kulcs kell. A kulcsot soha ne írd a
   skillbe, és ne tedd fel sehova nyilvánosan.
 - A `claude-oldalak-feltolto` a [Claude Oldalak WordPress-bővítménnyel](https://domarketing.hu/plugin/)
   működik. A bővítmény API-kulcsára ugyanez vonatkozik.

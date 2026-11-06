@@ -39,8 +39,10 @@ TILTOTT = [
 
 # Belső nevek: a skillek szövegében nem maradhatnak. Kivétel a feliratkozo-oldal
 # mintái, mert azok a DO! saját, nyilvános oldalai (ez döntés volt).
-# A domarketing.hu/plugin a Claude Oldalak bővítmény nyilvános letöltőoldala, arra hivatkozhatnak.
-BELSO_NEVEK = r"(?i)\b(do!\s?marketing|domarketing(?!\.hu/plugin)|zsolt|domi\b|orsi\b|uvf\+?|belső kör|mastermind)"
+# A domarketing.hu/plugin a Claude Oldalak bővítmény nyilvános letöltőoldala, a domarketing.hu/ai-video-vagas
+# a videóvágó tananyag (az ai-arculat-generator videós fázisa erre hivatkozik), a github.com/domarketing/ pedig
+# ennek a nyilvános repónak a letöltési címe; ezekre hivatkozhatnak.
+BELSO_NEVEK = r"(?i)\b(do!\s?marketing|(?<!github\.com/)domarketing(?!\.hu/(?:plugin|ai-video-vagas))|zsolt|domi\b|orsi\b|uvf\+?|belső kör|mastermind)"
 MINTA_KIVETEL = {"feliratkozo-oldal/samples", "ertekesitesi-level-iro/references/email-mintak.md"}
 
 SZOVEG = {".md", ".py", ".html", ".css", ".js", ".json", ".txt", ".yml", ".yaml"}

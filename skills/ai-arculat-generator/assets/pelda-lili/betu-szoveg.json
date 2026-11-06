@@ -1,0 +1,72 @@
+{
+ "bE": {
+  "display": "Ibarra Real Nova",
+  "body": "Alegreya Sans",
+  "hand": "Alex Brush",
+  "label": "Fragment Mono",
+  "w_display": 500,
+  "ls_display": "-0.01em",
+  "lh_display": 1.04,
+  "hero_scale": 1.06,
+  "fs_hand": 1.45,
+  "nagybetus": false,
+  "nev": "Elegáns · Ibarra Real Nova és Alegreya Sans",
+  "miert": "Nemes, régi könyvbetű a címekhez, mint egy botanikus kiadvány címlapja; mellette kalligrafikus, mégis tiszta szövegbetű és egy lendületes ecsetes kézírás. Elegáns, sok levegővel."
+ },
+ "bM": {
+  "display": "Funnel Display",
+  "body": "Instrument Sans",
+  "hand": "Architects Daughter",
+  "label": "IBM Plex Mono",
+  "w_display": 600,
+  "ls_display": "-0.025em",
+  "lh_display": 1.04,
+  "hero_scale": 1.0,
+  "fs_hand": 1.1,
+  "nagybetus": false,
+  "nev": "Modern · Funnel Display és Instrument Sans",
+  "miert": "Mai, karakteres grotesk címek, precíz szövegbetű, a kézírás pedig a tervrajzok építész-betűje. Olyan, mint egy tájépítész műterem: pontos, friss."
+ },
+ "bB": {
+  "display": "Big Shoulders Display",
+  "body": "Familjen Grotesk",
+  "hand": "Caveat Brush",
+  "label": "Martian Mono",
+  "w_display": 800,
+  "ls_display": "0.01em",
+  "lh_display": 0.98,
+  "hero_scale": 1.15,
+  "fs_hand": 1.15,
+  "nagybetus": true,
+  "nev": "Merész · Big Shoulders Display és Familjen Grotesk",
+  "miert": "Magas, keskeny, nagybetűs plakátbetű, mint a fűszálak; barátságos szövegbetű és ecsetes kézírás mellette. A legerősebb, legmozgalmasabb irány."
+ },
+ "bF": {
+  "display": "Young Serif",
+  "body": "Karla",
+  "hand": "Playwrite HU",
+  "label": "Sono",
+  "w_display": 400,
+  "ls_display": "-0.015em",
+  "lh_display": 1.06,
+  "hero_scale": 1.0,
+  "fs_hand": 0.95,
+  "nagybetus": false,
+  "nev": "Barátságos · Young Serif és a mostani Karla",
+  "miert": "Vaskos, meleg régi-stílusú antikva a címekhez; a szövegbetű a mostani oldalad Karlája, a kézírás pedig a magyar iskolai folyóírás (Playwrite Magyarország). Mint egy jó kertnapló."
+ },
+ "bK": {
+  "display": "Brygada 1918",
+  "body": "Libre Franklin",
+  "hand": "Petit Formal Script",
+  "label": "Cutive Mono",
+  "w_display": 600,
+  "ls_display": "-0.01em",
+  "lh_display": 1.05,
+  "hero_scale": 1.0,
+  "fs_hand": 1.3,
+  "nagybetus": false,
+  "nev": "Klasszikus · Brygada 1918 és Libre Franklin",
+  "miert": "Egy 1918-as lengyel könyvbetű felújított változata a címekhez, klasszikus grotesk szövegbetű, formális kézírás és írógép-címke. Nyugodt, időtálló, mint egy régi botanikus kert táblái."
+ }
+}

@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "do-skillek",
-      "description": "A DO! marketing ügyfeleinek összeállított Claude-skillek: cégprofil, feliratkozó oldal, webinár köszönőoldal, értékesítési levél és oldal, szövegellenőrző, webdesign-arculat, Facebook-poszt, leirat-javító, magyar PDF és WordPress-feltöltő.",
+      "description": "A DO! marketing ügyfeleinek összeállított Claude-skillek: cégprofil, feliratkozó oldal, webinár köszönőoldal, értékesítési levél és oldal, szövegellenőrző, AI arculat-generátor (web, prezentáció, videó), leirat-javító, magyar PDF és WordPress-feltöltő.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -21,8 +21,7 @@
         "./skills/ertekesitesi-oldal-keszito",
         "./skills/szovegellenorzo",
         "./skills/claude-oldalak-feltolto",
-        "./skills/webdesign-arculat-generator",
-        "./skills/facebook-poszt-iro",
+        "./skills/ai-arculat-generator",
         "./skills/leirat-javito",
         "./skills/pdf-magyar"
       ]

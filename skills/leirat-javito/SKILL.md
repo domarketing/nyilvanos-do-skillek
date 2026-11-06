@@ -252,5 +252,5 @@ Ha a felhasználó új nevet, márkát vagy félrehallást erősített meg:
 ## Kapcsolódó skillek
 
 - `cegprofil`: nevek, márkák, termékek a szótárhoz.
-- `facebook-poszt-iro`, `ertekesitesi-level-iro`: ha a kész leiratból poszt vagy levél készül.
+- `ertekesitesi-level-iro`: ha a kész leiratból levél készül.
 - `claude-oldalak-feltolto`: a HTML-változat feltöltése a Claude Oldalak bővítménnyel.

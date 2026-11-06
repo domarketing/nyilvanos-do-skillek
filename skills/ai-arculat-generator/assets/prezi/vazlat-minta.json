@@ -1,0 +1,18 @@
+{
+  "tema": "<munkamappa>/prezi/prezi-tema.json",
+  "ki": "uj-prezentacio.pptx",
+  "diak": [
+    {"tipus": "cimdia", "kicker": "<név · szakma>", "cim": "<3-8 szó, a kulcsszó ==így==>", "alcim": "<egy mondat>", "fotok": ["<fotó-id>", "<fotó-id>", "<fotó-id>"], "jegyzet": "<előadói jegyzet>"},
+    {"tipus": "fejezet", "szam": "01", "kicker": "<Első fejezet>", "cim": "<a fejezet címe ==kulcsszóval==>", "alcim": "<egy mondat>", "fotok": ["<fotó-id>"]},
+    {"tipus": "felsorolas", "kicker": "<címke>", "cim": "<cím ==kulcsszóval==>", "pontok": [["<pont-cím>", "<leírás, max 2 sor>"], ["<pont-cím>", "<leírás>"], ["<pont-cím>", "<leírás>"]], "ikon": "<ikon-név>"},
+    {"tipus": "ket_hasab", "kicker": "<címke>", "vezer": "<a vezérgondolat ==kulcsszóval==>", "szoveg": "<1-2 mondat>", "pontok": [["<pont-cím>", "<leírás>"], ["<pont-cím>", "<leírás>"], ["<pont-cím>", "<leírás>"]]},
+    {"tipus": "folyamat", "kicker": "<címke>", "cim": "<cím>", "lepesek": [["<ikon>", "<lépés>", "<leírás>"], ["<ikon>", "<lépés>", "<leírás>"], ["<ikon>", "<lépés>", "<leírás>"], ["<ikon>", "<lépés>", "<leírás>"]]},
+    {"tipus": "kartyak", "kicker": "<címke>", "cim": "<cím>", "alcim": "<egy mondat>", "kartyak": [["<ikon>", "<cím>", "<leírás>"], ["<ikon>", "<cím>", "<leírás>"], ["<ikon>", "<cím>", "<leírás>"], ["<ikon>", "<cím>", "<leírás>"]]},
+    {"tipus": "szamok", "kicker": "<címke>", "cim": "<cím>", "szamok": [["<szám>", "<címke>", "<magyarázat>"], ["<szám>", "<címke>", "<magyarázat>"], ["<szám>", "<címke>", "<magyarázat>"]], "foto": "<fotó-id>"},
+    {"tipus": "idezet", "kicker": "<címke>", "idezet": "<valódi idézet, idézőjel nélkül>", "szerzo": "<név>", "szerep": "<szerep>", "foto": "<fotó-id>", "portre": "<portré fotó-id>", "felirat": "<kézírásos képaláírás>"},
+    {"tipus": "eset", "pill": "Példa", "kicker": "<ügyfél vagy forrás>", "cim": "<cím ==kulcsszóval==>", "szoveg": "<2-3 mondat>", "pontok": [["<eredmény>", "<részlet>"], ["<eredmény>", "<részlet>"]], "fotok": ["<fotó-id>", "<fotó-id>"]},
+    {"tipus": "kerdes", "kicker": "<címke>", "kerdes": "<gondolkodtató kérdés>", "alcim": "<egy mondat>"},
+    {"tipus": "kepernyokep", "kicker": "<címke>", "cim": "<cím>", "kep": "<kép útja a munkamappához képest>", "kivagas": [0, 0, 1440, 900], "url": "<webcím>", "pontok": [[0.5, 0.2, "<cím>", "<magyarázat>"], [0.3, 0.8, "<cím>", "<magyarázat>"]]},
+    {"tipus": "zaro", "kicker": "<következő lépés>", "cim": "<cím ==kulcsszóval==>", "alcim": "<egy mondat>", "url": "<webcím>", "kontaktok": [["Telefon", "<telefonszám>"], ["E-mail", "<e-mail>"], ["Web", "<webcím>"]], "fotok": ["<portré fotó-id>", "<fekvő fotó-id>"]}
+  ]
+}
